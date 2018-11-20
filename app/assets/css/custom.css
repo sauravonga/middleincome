@@ -1,0 +1,134 @@
+.top-logo {
+    width: 175%;
+    margin-top: 10px;
+}
+
+.bottom-full-border {
+    text-align: center;
+    border-bottom: 1px solid rgba(13, 115, 214, .35);
+}
+
+.bold-under-head {
+    display: inline-block;
+    font-weight: 800;
+    border-bottom: 4px solid black;
+    letter-spacing: 0.001em;
+    margin: 0 1.25em;
+    padding: 0 0 0.3125em;
+}
+
+.light-subhead {
+    margin-top: 0.7em;
+    font-weight: 100;
+    color: gray;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-c-align {
+    align-self: center;
+}
+
+.about-section {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.has-top-margin5 {
+    margin-top: 4.125rem;
+} 
+
+.footer-logo {
+    width: 15%;
+}
+
+.is-width-80 {
+    width: 80%;
+}
+
+.u-space-3 {
+    padding-top: 4.125rem;
+    padding-bottom: 0;
+}
+
+.u-space-4 {
+    padding-top: 8.125rem;
+    padding-bottom: 0;
+}
+
+.btn-classic {
+    background-color: black;
+    border-color: black;
+}
+
+/* icon sets for indicators */
+.icon__trad {
+    background-image: url(../img/icons/trade.svg)
+}
+
+.icon__idea {
+    background-image: url(../img/icons/ideas.svg)
+}
+
+.icon__fina {
+    background-image: url(../img/icons/finance.svg)
+}
+
+.icon__citi {
+    background-image: url(../img/icons/cities.svg)
+}
+
+.icon__cohe {
+    background-image: url(../img/icons/cohesion.svg)
+}
+
+.icon__corr {
+    background-image: url(../img/icons/corruption.svg)
+}
+
+.icon__demo {
+    background-image: url(../img/icons/demography.svg)
+}
+
+.icon__entr {
+    background-image: url(../img/icons/startup.svg)
+}
+
+.icon__exte {
+    background-image: url(../img/icons/external.svg)
+}
+
+.icon__envi {
+    background-image: url(../img/icons/environment.svg)
+}
+
+/* Small Devices */
+@media only screen and (max-width: 600px) {
+    .top-logo {
+        width: 150%;
+    }
+    .footer-logo {
+        width: 40%;
+    }   
+    
+    .u-space-3-mobile {
+        padding-top: 4.125em;
+    }
+
+} 
+
+@media (min-width: 768px) {
+    .fixed-nav {
+        position: relative;
+    }
+    .has-gap-25px {
+        padding-top: 25px;
+    }
+    .img-responsive {
+        max-width: 100%;
+        height: auto;
+    }
+}
